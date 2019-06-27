@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/* 基础的css */
+html,body,div,span,p,img,ul,ol,li,dd,dt,dl,input,button,form,textarea,select,option,table,tr,th,td,header,footer,section,aside{
+  -o-box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+}
+html {
+  width:100%;
+  height:100%;
+  margin:0 auto;
+  background-color: #eee;
+  position:relative;
+  font-family:'Arial';/*font-family:Helvetica;*/
+  -moz-text-size-adjust:100%;
+  -webkit-text-size-adjust:100%;
+  text-size-adjust:100%;
+  font-size:10px;
+}
+body{
+  width:100%;
+  height:auto;
+  margin: 0;
+  min-height: 100%;
+  color:#666;
+  position: relative;
+  background-color: #F4F6FD;
+  position: relative;
+  overflow-x: hidden;
+}
+a:hover{
+  // color: #e9c048;
+  color: #fc6262;
+}
+input{
+  outline: none;
+}
+img{
+  max-width: 100%;
+  vertical-align:middle;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+ul{
+  margin:0;
+  padding:0;
+  border:0;
+}
+li{
+  list-style: none
+}
+/* 清除浮动 */
+.clear{
+  clear:both;
+}
+.clearfix {
+  /* 触发 ie的元素的hasLayout属性,是元素拥有布局（尺寸计算和定位） */ 
+  zoom: 1;
+}
+.clearfix:after {
+  content:".";
+  display:block;
+  height:0;
+  visibility:hidden;
+  clear:both;
+}
+/* 显示隐藏 */
+.inner {
+  overflow: hidden;
+  word-wrap: break-word;
+}
+.hide{display:none;}
+.overflow{overflow: hidden;}
+
+
+
+/* 单行文字超出省略 */
+.ellipsis-one{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* 多行文字超出省略 */
+.ellipsis-two{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+}
+
+
+
+/* 加载更多的loading弹出层 */
+.loading-more {
+  position: absolute;
+  bottom: 0.2rem;
+  left: 3.1rem;
+  width: 0.32rem;
+  height: 0.32rem;
+}
+.loading-more img {
+  width:100%;
+  height:100%;
+}
+
+
+
+/* 最外层遮罩层 */
+.mask {
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 115;
+    text-align: center;
+    display: none;
+}
+.slideBardiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    z-index: 116;
+    text-align: center;
+    display: none;
+}
+
+
+
+
+/* 实现文本两端对齐效果 */
+.taj {text-align:justify;}
+.gray {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
