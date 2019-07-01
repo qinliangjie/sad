@@ -1,3 +1,73 @@
-#counter{
-    width: 10rem
+.top_show{
+    width:19.2rem;
+    position: relative;
+}
+.secound_show{
+    position: relative;
+    top: -3rem;
+    .bgimg{
+        position: absolute;
+    }
+    .reservation{
+        position: relative;
+        top: 3.5rem;
+        .number{
+            position: absolute;
+            width: 4.88rem;
+            top: 1.3rem;
+            left: 50%;
+            margin-left: -2.44rem;
+            span{
+                display: inline-block;
+                position: absolute;
+                font-size: 1.1rem;
+                letter-spacing: .05rem;
+                top: 0;
+                right: .44rem;
+                background-image:-webkit-linear-gradient(top,#cb6121,#84270b); 
+                -webkit-background-clip:text; 
+                -webkit-text-fill-color:transparent; 
+            }
+        }
+        .gift{
+            width: 19rem;
+            position: absolute;
+            top: 2.5rem;
+            left: 50%;
+            margin-left:-9.5rem
+        }
+    }
+    .advance{
+        position: relative;
+        width: 19rem;
+        top: 9.8rem;
+        left: -1.5rem;
+
+    }
+    .game{
+        position: relative;
+        top: 8.8rem;
+        .title{
+            margin-left: -2.8rem
+        }
+        .game_img{
+            position: absolute;
+            top: 1.5rem;
+            width: 11.62rem;
+            left: 50%;
+            margin-left: -5.9rem;
+        }
+    }
+    .choose_role{
+        position: relative;
+        top: 18rem
+    }
+    .title{
+        position:absolute;
+        width: 5.65rem;
+        height: 1.35rem;
+        left: 50%;
+        margin-left: -2.87rem
+    }
+    
 }
