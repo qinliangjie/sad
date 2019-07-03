@@ -4,7 +4,9 @@
 }
 .secound_show{
     position: relative;
-    top: -3rem;
+    margin-top: -3rem;
+    height: 44rem;
+    width: 19.2rem;
     .bgimg{
         position: absolute;
     }
@@ -60,7 +62,220 @@
     }
     .choose_role{
         position: relative;
-        top: 18rem
+        top: 18rem;
+        .blood{
+            position: absolute;
+            width: 1.3rem;
+            height: 1.3rem;
+            top: 1rem;
+            left: 50%;
+            margin-left: -2.72rem;
+            background: url(../img/pc/c_img/blood.png) no-repeat;
+            background-size: 100% 100%;
+            text-align: center;
+            line-height: .76rem;
+            cursor: pointer;
+            span{
+                font-size: .2rem;
+                color: white;  
+            }
+            .round{
+                opacity: 0;
+                position: absolute;
+                left: 0;
+                transition: all .5s ease;
+                top: 0
+            }
+            ul{
+                display: none;
+                list-style: none;
+                position: absolute;
+                margin:0;
+                padding:0;
+                left: -1.1rem;
+                top: -.1rem;
+                width: .95rem;
+                border:1px solid white;
+                li{
+                    height: .25rem;
+                    border-bottom: 1px solid white;
+                    font-size: .2rem;
+                    text-align: center;
+                    line-height: .25rem;
+                    background-color: #4e2d1e;
+                    color: white
+                }
+                li:hover{
+                    background-color: white;
+                    color: #4e2d1e
+                }
+                li:last-child{
+                    border-bottom: 0
+                }
+            }
+        }
+        .sex{
+            position: absolute;
+            width: 1.3rem;
+            height: 1.3rem;
+            top: 1rem;
+            left: 50%;
+            margin-left: 1.4rem;
+            background: url(../img/pc/c_img/sex.png) no-repeat;
+            background-size: 100% 100%;
+            text-align: center;
+            line-height: .76rem;
+            cursor: pointer;
+            span{
+                font-size: .2rem;
+                color: white;  
+            }
+            .round{
+                opacity: 0;
+                position: absolute;
+                left: 0;
+                transition: all .5s ease;
+                top: 0
+            }
+            ul{
+                display: none;
+                list-style: none;
+                position: absolute;
+                margin: 0;
+                padding: 0;
+                left: 1.4rem;
+                top: .1rem;
+                width: .95rem;
+                border: 1px solid white;
+                li{
+                    height: .25rem;
+                    border-bottom: 1px solid white;
+                    font-size: .2rem;
+                    text-align: center;
+                    line-height: .25rem;
+                    background-color: #4e2d1e;
+                    color: white
+                }
+                li:hover{
+                    background-color: white;
+                    color: #4e2d1e
+                }
+                li:last-child{
+                    border-bottom: 0
+                }
+            }
+        }
+        .constellation{
+            position: absolute;
+            width: 1.3rem;
+            height: 1.3rem;
+            top: 5.4rem;
+            left: 50%;
+            margin-left: -3rem;
+            background: url(../img/pc/c_img/constellation.png) no-repeat;
+            background-size: 100% 100%;
+            text-align: center;
+            line-height: .76rem;
+            cursor: pointer;
+            span{
+                font-size: .2rem;
+                color: white;  
+            }
+            .round{
+                opacity: 0;
+                position: absolute;
+                left: 0;
+                transition: all .5s ease;
+                top: 0
+            }
+            ul{
+                display: none;
+                list-style: none;
+                position: absolute;
+                margin: 0;
+                padding: 0;
+                left: -1.1rem;
+                top: -2rem;
+                width: .95rem;
+                border: 1px solid white;
+                li{
+                    height: .25rem;
+                    border-bottom: 1px solid white;
+                    font-size: .2rem;
+                    text-align: center;
+                    line-height: .25rem;
+                    background-color: #4e2d1e;
+                    color: white
+                }
+                li:hover{
+                    background-color: white;
+                    color: #4e2d1e
+                }
+                li:last-child{
+                    border-bottom: 0
+                }
+            }
+        }
+        .age{
+            position: absolute;
+            width: 1.3rem;
+            height: 1.3rem;
+            top: 5.4rem;
+            left: 50%;
+            margin-left: 1.6rem;
+            background: url(../img/pc/c_img/constellation.png) no-repeat;
+            background-size: 100% 100%;
+            text-align: center;
+            line-height: .76rem;
+            cursor: pointer;
+            span{
+                font-size: .2rem;
+                color: white;  
+            }
+            .round{
+                opacity: 0;
+                position: absolute;
+                left: 0;
+                transition: all .5s ease;
+                top: 0
+            }
+            ul{
+                display: none;
+                list-style: none;
+                position: absolute;
+                margin: 0;
+                padding: 0;
+                left: 1.4rem;
+                top: -.1rem;
+                width: .95rem;
+                border: 1px solid white;
+                li{
+                    height: .25rem;
+                    border-bottom: 1px solid white;
+                    font-size: .2rem;
+                    text-align: center;
+                    line-height: .25rem;
+                    background-color: #4e2d1e;
+                    color: white
+                }
+                li:hover{
+                    background-color: white;
+                    color: #4e2d1e
+                }
+                li:last-child{
+                    border-bottom: 0
+                }
+            }
+        }
+        #testRole{
+            position: absolute;
+            width: 1.2rem;
+            height: 1.2rem;
+            top: 3.3rem;
+            left: 50%;
+            margin-left: -.6rem;
+            cursor: pointer;
+        }
     }
     .title{
         position:absolute;
@@ -69,5 +284,76 @@
         left: 50%;
         margin-left: -2.87rem
     }
-    
+    .role_introduce{
+        position: absolute;
+        bottom:6.5rem;
+        width: 12.54rem;
+        left: 50%;
+        margin-left: -6.27rem;
+        .role_list{
+            width: 100%;
+            height: 3.1rem;
+            // background: url(../img/pc/c_img/role.jpg) no-repeat;
+            // background-size: 100% 100%;
+            overflow: hidden;
+            .role_bgimg{
+                position: absolute;
+                z-index: 1;
+                top: 0;
+                left: 0;
+            }
+            .role_show{
+                position: absolute;
+                bottom: 3.1rem;
+                width: 12.54rem;
+                height: 7.05rem;
+                display: none;
+            }
+            .role_item{
+                position: relative;
+                z-index: 4;
+                display: inline-block;
+                width: 2.09rem;
+                height: 100%;
+                top: 0
+            }
+            .active{
+                display: block;
+            }
+        }
+        .gray{
+           
+            background-color: rgba($color: #000000, $alpha: .6)
+        }
+        
+    }
+    .work_foot{
+        position: absolute;
+        bottom: -1.15rem;
+        width: 19.2rem;
+        z-index: 7;
+        .wins{
+            position: absolute;
+            width: 8.44rem;
+            top: 1.5rem;
+            left: 50%;
+            margin-left: -4.2rem
+        }
+    }
+}
+.deg7{
+    opacity: 1 !important;
+    transform:rotate(-70deg);
+    -ms-transform:rotate(-70deg); 	/* IE 9 */
+    -moz-transform:rotate(-70deg); 	/* Firefox */
+    -webkit-transform:rotate(-70deg); /* Safari 和 Chrome */
+    -o-transform:rotate(-70deg);
+}
+.deg8{
+    opacity: 1 !important;
+    transform:rotate(80deg);
+    -ms-transform:rotate(80deg); 	/* IE 9 */
+    -moz-transform:rotate(80deg); 	/* Firefox */
+    -webkit-transform:rotate(80deg); /* Safari 和 Chrome */
+    -o-transform:rotate(80deg); 
 }
