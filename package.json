@@ -43,7 +43,7 @@
   },
   "dependencies": {
     "html-withimg-loader": "^0.1.16",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "lib-flexible": "^0.3.2",
     "lodash": "^4.17.11"
   }
